@@ -9,7 +9,7 @@ Take shots with the HUD off.
 
 | File | What goes there |
 |---|---|
-| `wrx-night-launch.gif` | done: night launch from the wheel-arch cam (top of the README) |
+| `night-drive.gif` | done: night drive in the silver hatch (top of the README) |
 | `gravel-stage.png` | a car sideways on a loose gravel stage, stones/dust flying |
 | `rain.png` | a wet stage in the rain, puddles splashing |
 | `cockpit.png` | in-car view with the gauges, ideally at speed |

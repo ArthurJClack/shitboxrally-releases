@@ -7,7 +7,7 @@
 A rally game about flogging cheap '90s shitboxes down procedurally generated back roads,
 with a PS1/PS2 look and a physics sim that cares way too much.
 
-<img src="docs/media/wrx-night-launch.gif" alt="A WRX launching off the line at night, seen from a wheel-arch camera" width="720">
+<img src="docs/media/night-drive.gif" alt="A silver hatch driving a stage at night, headlights on" width="720">
 
 [**Download the latest version**](https://github.com/ArthurJClack/shitboxrally-releases/releases/latest) ·
 [All releases](https://github.com/ArthurJClack/shitboxrally-releases/releases) ·
