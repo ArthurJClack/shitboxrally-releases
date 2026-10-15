@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>clips · Shitbox Rally</title>
+<meta name="description" content="gameplay clips, the trailer and screenshots from Shitbox Rally.">
+<meta property="og:title" content="clips · Shitbox Rally">
+<meta property="og:description" content="gameplay clips, the trailer and screenshots from Shitbox Rally.">
+<meta property="og:image" content="https://arthurjclack.github.io/shitboxrally-releases/card/wagon.jpg">
+<meta name="theme-color" content="#0a0b10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="top"><div class="wrap top-in">
+  <a class="logo" href="index.html">SHITBOX <span>RALLY</span></a>
+  <nav><a href="index.html">home</a><a href="cars.html">cars</a><a href="clips.html" aria-current="page">clips</a><a href="notes.html">patch notes</a><a href="install.html">install</a></nav>
+  <a class="btn btn-sm" href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally_Setup.exe">download</a>
+</div></header>
+<main>
+
+<section class="wrap band head">
+  <p class="tag">clips &amp; shots</p>
+  <h1>it looks like 2001 and drives like a sim</h1>
+  <p class="lede">tap a clip for the full video with sound.</p>
+</section>
+<section class="wrap band">
+  <figure class="trailer"><video controls preload="none" poster="media/stills.jpg" src="media/clips/trailer.mp4"></video><figcaption>the trailer</figcaption></figure>
+</section>
+<section class="wrap band">
+  <h2>in action</h2>
+  <div class="grid2"><figure class="clip"><a href="media/clips/snow.mp4"><img loading="lazy" src="media/clips/snow.webp" alt="the silver wagon kicking up powder on a snow stage"></a><figcaption>the silver wagon kicking up powder on a snow stage</figcaption></figure><figure class="clip"><a href="media/clips/night.mp4"><img loading="lazy" src="media/clips/night.webp" alt="two cars chasing through a forest stage at night"></a><figcaption>two cars chasing through a forest stage at night</figcaption></figure><figure class="clip"><a href="media/clips/sand-jump.mp4"><img loading="lazy" src="media/clips/sand-jump.webp" alt="launching off a sand dune"></a><figcaption>launching off a sand dune</figcaption></figure><figure class="clip"><a href="media/clips/jump.mp4"><img loading="lazy" src="media/clips/jump.webp" alt="jumping a crest and going through a fence"></a><figcaption>jumping a crest and going through a fence</figcaption></figure><figure class="clip"><a href="media/clips/donut.mp4"><img loading="lazy" src="media/clips/donut.webp" alt="donuts in a muddy field, clods flying"></a><figcaption>donuts in a muddy field, clods flying</figcaption></figure><figure class="clip"><a href="media/clips/mud.mp4"><img loading="lazy" src="media/clips/mud.webp" alt="in-car through a wet, muddy farm stage"></a><figcaption>in-car through a wet, muddy farm stage</figcaption></figure><figure class="clip"><a href="media/clips/burnout.mp4"><img loading="lazy" src="media/clips/burnout.webp" alt="a burnout on the start line"></a><figcaption>a burnout on the start line</figcaption></figure><figure class="clip"><a href="media/clips/opening.mp4"><img loading="lazy" src="media/clips/opening.webp" alt="flying over the forest down to the start"></a><figcaption>flying over the forest down to the start</figcaption></figure></div>
+</section>
+<section class="wrap band">
+  <h2>screenshots</h2>
+  <div class="shots"><figure><a href="shots/gravel-chase.jpg"><img loading="lazy" src="shots/gravel-chase.jpg" alt="chase cam on a gravel farm road with the pace note cards up"></a><figcaption>chase cam on a gravel farm road with the pace note cards up</figcaption></figure><figure><a href="shots/night-forest.jpg"><img loading="lazy" src="shots/night-forest.jpg" alt="night stage in the forest, roadside flares lit"></a><figcaption>night stage in the forest, roadside flares lit</figcaption></figure><figure><a href="shots/dashcam.jpg"><img loading="lazy" src="shots/dashcam.jpg" alt="night vision dashcam view on washed-out tarmac"></a><figcaption>night vision dashcam view on washed-out tarmac</figcaption></figure><figure><a href="shots/highway.jpg"><img loading="lazy" src="shots/highway.jpg" alt="the four-lane highway preset"></a><figcaption>the four-lane highway preset</figcaption></figure><figure><a href="shots/cockpit.jpg"><img loading="lazy" src="shots/cockpit.jpg" alt="in-car, mud on the windshield"></a><figcaption>in-car, mud on the windshield</figcaption></figure><figure><a href="shots/garage.jpg"><img loading="lazy" src="shots/garage.jpg" alt="the garage with the wagon on the lift"></a><figcaption>the garage with the wagon on the lift</figcaption></figure><figure><a href="shots/loading.jpg"><img loading="lazy" src="shots/loading.jpg" alt="a fresh stage loading in"></a><figcaption>a fresh stage loading in</figcaption></figure></div>
+</section>
+
+</main>
+<footer class="foot"><div class="wrap foot-in">
+  <span>© 2026 fish market software. this repo only hosts the game's builds, please don't re-upload the files.</span>
+  <span><a href="https://github.com/ArthurJClack/shitboxrally-releases">github</a> · <a href="https://github.com/ArthurJClack/shitboxrally-releases/releases">all releases</a> · <a href="card.html">share card</a></span>
+</div></footer>
+<script>
+document.querySelectorAll('video[data-lazy]').forEach(v=>{
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){v.src=v.dataset.lazy;v.removeAttribute('data-lazy');io.disconnect()}}));io.observe(v)});
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>install · Shitbox Rally</title>
+<meta name="description" content="how to install, update and run Shitbox Rally on windows.">
+<meta property="og:title" content="install · Shitbox Rally">
+<meta property="og:description" content="how to install, update and run Shitbox Rally on windows.">
+<meta property="og:image" content="https://arthurjclack.github.io/shitboxrally-releases/card/wagon.jpg">
+<meta name="theme-color" content="#0a0b10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="top"><div class="wrap top-in">
+  <a class="logo" href="index.html">SHITBOX <span>RALLY</span></a>
+  <nav><a href="index.html">home</a><a href="cars.html">cars</a><a href="clips.html">clips</a><a href="notes.html">patch notes</a><a href="install.html" aria-current="page">install</a></nav>
+  <a class="btn btn-sm" href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally_Setup.exe">download</a>
+</div></header>
+<main>
+
+<section class="wrap band head">
+  <p class="tag">install &amp; run</p>
+  <h1>three steps and you're driving</h1>
+</section>
+<section class="wrap band">
+  <ol class="steps">
+    <li><h3>download the installer</h3><p><a href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally_Setup.exe">ShitboxRally_Setup.exe</a> from the latest release. if you'd rather not use an installer, grab <a href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally-win64.zip">ShitboxRally-win64.zip</a>, unzip it anywhere and run the exe.</p></li>
+    <li><h3>run it</h3><p>windows may show a SmartScreen warning because the game isn't signed. click <b>More info</b>, then <b>Run anyway</b>.</p></li>
+    <li><h3>drive</h3><p>the game checks for updates when it starts, so you only install once. really old installs (0.5 and earlier) can't update themselves, just run the installer again.</p></li>
+  </ol>
+</section>
+<section class="wrap band">
+  <div class="grid2 tight">
+    <article class="panel"><h2>system requirements</h2><p class="muted">a rough guide, not a promise.</p>
+      <dl class="reqs">
+        <dt>os</dt><dd>windows 10 or 11, 64-bit</dd>
+        <dt>gpu</dt><dd>anything with Vulkan or OpenGL 3.3</dd>
+        <dt>disk</dt><dd>about 1 GB</dd>
+        <dt>controls</dt><dd>keyboard works, a gamepad is better, a wheel with force feedback is best</dd>
+      </dl></article>
+    <article class="panel"><h2>running on a potato</h2>
+      <ul>
+        <li>older and integrated GPUs fall back to OpenGL and pick a lighter preset on their own.</li>
+        <li>graphics presets go from Potato to Native in settings. they only change what's drawn, never the physics.</li>
+        <li>the Potato preset runs on integrated graphics.</li>
+        <li>longer stages take longer to build on slow machines, so start short.</li>
+      </ul></article>
+  </div>
+</section>
+<section class="wrap band">
+  <div class="grid2 tight">
+    <article class="panel"><h2>stable or dev</h2>
+      <p><b>stable</b> is the <a href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest">latest release</a> and only updates to the next stable one. <b>dev</b> builds are <a href="https://github.com/ArthurJClack/shitboxrally-releases/releases">pre-releases</a> with the newest stuff, and they'll probably break a bit. the channel is baked into the build you install.</p></article>
+    <article class="panel"><h2>found a bug?</h2>
+      <p>use <b>Settings → Stats &amp; feedback</b> in the game. it goes straight to the dev.</p></article>
+  </div>
+</section>
+
+</main>
+<footer class="foot"><div class="wrap foot-in">
+  <span>© 2026 fish market software. this repo only hosts the game's builds, please don't re-upload the files.</span>
+  <span><a href="https://github.com/ArthurJClack/shitboxrally-releases">github</a> · <a href="https://github.com/ArthurJClack/shitboxrally-releases/releases">all releases</a> · <a href="card.html">share card</a></span>
+</div></footer>
+<script>
+document.querySelectorAll('video[data-lazy]').forEach(v=>{
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){v.src=v.dataset.lazy;v.removeAttribute('data-lazy');io.disconnect()}}));io.observe(v)});
+</script>
+</body>
+</html>
