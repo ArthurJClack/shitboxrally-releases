@@ -3,81 +3,86 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta property="og:title" content="Shitbox Rally">
-<meta property="og:description" content="old cars. bad roads. heavy physics. free download for windows.">
-<meta property="og:image" content="https://arthurjclack.github.io/shitboxrally-releases/card/wagon.jpg">
 <title>Shitbox Rally</title>
+<meta name="description" content="old cars, heavy physics, procedural rally stages and a ps2 look. free download for windows.">
+<meta property="og:title" content="Shitbox Rally">
+<meta property="og:description" content="old cars, heavy physics, procedural rally stages and a ps2 look. free download for windows.">
+<meta property="og:image" content="https://arthurjclack.github.io/shitboxrally-releases/card/wagon.jpg">
+<meta name="theme-color" content="#0a0b10">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500;700&family=IBM+Plex+Mono:wght@500&display=swap">
-<style>
-/* layout: one phone-sized card, night photo bleeding behind the title, QR + download pinned under it */
-:root{
-  --night:#0a0b10; --panel:#14161f; --chrome:#e9ecf2; --dim:#9aa0b0;
-  --tail:#e3262b; --tail-hot:#ff4a3d; --pad:#ffffff;
-  --display:"Archivo Black","Arial Black",Impact,sans-serif;
-  --body:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
-  color-scheme:dark;
-}
-*{box-sizing:border-box}
-html,body{background:var(--night);color:var(--chrome)}
-body{margin:0;font-family:var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 40px;display:flex;justify-content:center}
-.card{width:100%;max-width:420px;background:var(--panel);border-radius:22px;overflow:hidden;box-shadow:0 20px 60px #000a;display:flex;flex-direction:column}
-.hero{position:relative;aspect-ratio:4/4.3;max-width:100%;background:var(--night) url("card/wagon.jpg") center/cover no-repeat;display:flex;flex-direction:column;justify-content:space-between;padding:22px}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0a0b10cc 0%,#0a0b1000 38%,#0a0b1000 62%,var(--panel) 100%);pointer-events:none}
-.hero>*{position:relative;z-index:1}
-.tag{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
-h1{margin:6px 0 0;font-family:var(--display);font-weight:400;line-height:.9;font-size:clamp(44px,13vw,60px);letter-spacing:-.01em;text-wrap:balance}
-h1 span{display:block;color:var(--tail)}
-.spec{font-family:var(--mono);font-size:12px;color:var(--chrome);opacity:.85;line-height:1.5}
-.body{padding:4px 22px 24px;display:flex;flex-direction:column;gap:18px}
-.row{display:flex;gap:16px;align-items:center}
-.qr{flex:none;background:var(--pad);border-radius:14px;padding:6px;width:132px;max-width:40%}
-.qr img{display:block;width:100%;image-rendering:pixelated}
-.row p{margin:0;min-width:0;font-size:14px;line-height:1.45;color:var(--dim)}
-.row p b{display:block;color:var(--chrome);font-size:16px;margin-bottom:4px}
-.dl{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;background:var(--tail);color:#fff;border-radius:14px;padding:16px 12px;font-weight:700;font-size:18px;letter-spacing:.01em;transition:background .15s}
-.dl small{font-weight:500;font-size:12px;opacity:.85}
-.dl:hover,.dl:focus-visible{background:var(--tail-hot)}
-a:focus-visible,button:focus-visible{outline:2px solid var(--chrome);outline-offset:3px}
-.link{display:flex;gap:8px;align-items:center;background:var(--night);border-radius:12px;padding:10px 10px 10px 14px}
-.link a{flex:1;min-width:0;font-family:var(--mono);font-size:12.5px;color:var(--chrome);text-decoration:none;overflow-wrap:anywhere}
-.link button{flex:none;font:700 13px var(--body);background:var(--panel);color:var(--chrome);border:1px solid #2a2e3c;border-radius:9px;padding:8px 12px;cursor:pointer}
-.foot{font-size:12px;color:var(--dim);text-align:center}
-@media (prefers-reduced-motion:reduce){.dl{transition:none}}
-</style>
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
+<header class="top"><div class="wrap top-in">
+  <a class="logo" href="index.html">SHITBOX <span>RALLY</span></a>
+  <nav><a href="index.html" aria-current="page">home</a><a href="cars.html">cars</a><a href="clips.html">clips</a><a href="notes.html">patch notes</a><a href="install.html">install</a></nav>
+  <a class="btn btn-sm" href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally_Setup.exe">download</a>
+</div></header>
+<main>
 
+<section class="hero">
+  <div class="hero-img" role="img" aria-label="A silver wagon at night, tail lights on"></div>
+  <div class="wrap hero-in">
+    <p class="tag">free · windows · early access</p>
+    <h1>SHITBOX <span>RALLY</span></h1>
+    <p class="lede">old cars. heavy physics. roads that have never been fixed. a rally game about flogging cheap '90s shitboxes down back roads nobody's driven before, with a ps2 look and a sim that cares way too much.</p>
+    <div class="cta">
+      <a class="btn" href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally_Setup.exe">download for windows<small>ShitboxRally_Setup.exe · latest</small></a>
+      <a class="btn ghost" href="clips.html">watch it move</a>
+    </div>
+  </div>
+</section>
 
-<main class="card">
-  <section class="hero">
+<section class="wrap band">
+  <div class="grid2">
+    <figure class="clip big"><a href="media/clips/night.mp4"><img loading="lazy" src="media/clips/night.webp" alt="night stage, two cars nose to tail"></a><figcaption>night stage, two cars nose to tail</figcaption></figure>
+    <figure class="clip big"><a href="media/clips/snow.mp4"><img loading="lazy" src="media/clips/snow.webp" alt="the wagon throwing powder on a snow stage"></a><figcaption>the wagon throwing powder on a snow stage</figcaption></figure>
+  </div>
+</section>
+
+<section class="wrap band">
+  <h2>what's in the box</h2>
+  <div class="feats">
+    <article><h3>stages that don't repeat</h3><p>every stage is generated fresh: forests, farmland, alpine passes, desert, tundra. there are real roads too, from California, Colorado, the Alps and Washington, with their real shape and elevation. your co-driver calls all of it.</p></article>
+    <article><h3>14 surfaces, all of them bad</h3><p>tarmac in every state of decay, loose and packed gravel, mud, snow. potholes, tar snakes, washboard, cattle grids, fords and spills. the loose stuff gets dug up as the field goes through and the stones bounce off your car.</p></article>
+    <article><h3>a sim under the jank</h3><p>raycast suspension, a proper tire model, real drivetrains and limited-slips. clutches fade, turbos heat-soak, radiators get holed and money shifts cost you the engine. damage sticks around.</p></article>
+    <article><h3>wheels feel it</h3><p>force feedback for MOZA, Fanatec, Logitech, Thrustmaster and Simagic. you feel tire grip, caster and every pothole, and the wheel goes light when the front washes out.</p></article>
+    <article><h3>race your friends</h3><p>online through Steam lobbies or by IP, split-screen on one PC, push-to-talk that sounds like a CB radio, and your own music on the car radio for everyone to hear.</p></article>
+    <article><h3>the garage</h3><p>70-something old cars, each with its own quirks. engine parts, an ECU app on the garage computer, launch control, aero that actually does something, and a FUN tab for making your car look ridiculous.</p></article>
+  </div>
+</section>
+
+<section class="wrap band">
+  <div class="split">
     <div>
-      <div class="tag">free · windows</div>
-      <h1>Shitbox <span>Rally</span></h1>
+      <h2>six bosses, six builds</h2>
+      <p>street-tuned cars with names, attitudes and things to say before the start. you can drive their cars too.</p>
+      <a class="btn ghost" href="cars.html#bosses">meet them</a>
     </div>
-    <div class="spec">old cars. bad roads. heavy physics.<br>procedural stages, ps2 look.</div>
-  </section>
-  <section class="body">
-    <div class="row">
-      <div class="qr"><img alt="QR code linking to the Shitbox Rally releases page" src="card/qr.png"></div>
-      <p><b>scan to join</b>point your phone camera at the code to open the releases page.</p>
+    <img class="shot" loading="lazy" src="shots/gravel-chase.jpg" alt="chase cam on a gravel farm road">
+  </div>
+</section>
+
+<section class="wrap band">
+  <div class="dl-box">
+    <div>
+      <h2>get in</h2>
+      <p>download the installer, run it, drive. the game updates itself after that, so you only install once.</p>
+      <div class="cta"><a class="btn" href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally_Setup.exe">download for windows</a><a class="btn ghost" href="install.html">install help</a></div>
     </div>
-    <a class="dl" href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally_Setup.exe">Download for Windows<small>ShitboxRally_Setup.exe · latest</small></a>
-    <div class="link">
-      <a id="repo" href="https://github.com/ArthurJClack/shitboxrally-releases">github.com/ArthurJClack/shitboxrally-releases</a>
-      <button id="copy" type="button">copy</button>
-    </div>
-    <div class="foot">the game updates itself after you install it.</div>
-  </section>
+    <div class="qr"><img src="card/qr-site.png" alt="QR code for this site"></div>
+  </div>
+</section>
+
 </main>
+<footer class="foot"><div class="wrap foot-in">
+  <span>© 2026 fish market software. this repo only hosts the game's builds, please don't re-upload the files.</span>
+  <span><a href="https://github.com/ArthurJClack/shitboxrally-releases">github</a> · <a href="https://github.com/ArthurJClack/shitboxrally-releases/releases">all releases</a> · <a href="card.html">share card</a></span>
+</div></footer>
 <script>
-document.getElementById('copy').addEventListener('click',e=>{
-  const b=e.currentTarget,url=document.getElementById('repo').href;
-  const done=t=>{b.textContent=t;setTimeout(()=>b.textContent='copy',1600)};
-  try{navigator.clipboard.writeText(url).then(()=>done('copied'),()=>sel())}catch(_){sel()}
-  function sel(){const r=document.createRange();r.selectNodeContents(document.getElementById('repo'));const s=getSelection();s.removeAllRanges();s.addRange(r);done('selected')}
-});
+document.querySelectorAll('video[data-lazy]').forEach(v=>{
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){v.src=v.dataset.lazy;v.removeAttribute('data-lazy');io.disconnect()}}));io.observe(v)});
 </script>
 </body>
 </html>
