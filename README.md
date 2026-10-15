@@ -17,6 +17,21 @@ with a PS1/PS2 look and a physics sim that cares way too much.
 
 ---
 
+## In action
+
+<div align="center">
+
+<a href="docs/media/clips/snow.mp4"><img src="docs/media/clips/snow.webp" alt="The silver WRX wagon kicking up powder on a snow stage" width="49%"></a> <a href="docs/media/clips/night.mp4"><img src="docs/media/clips/night.webp" alt="Two cars chasing each other through a forest stage at night" width="49%"></a>
+<a href="docs/media/clips/sand-jump.mp4"><img src="docs/media/clips/sand-jump.webp" alt="The silver WRX launching off a sand dune" width="49%"></a> <a href="docs/media/clips/burnout.mp4"><img src="docs/media/clips/burnout.webp" alt="An orange coupe doing a burnout on the start line" width="49%"></a>
+<a href="docs/media/clips/donut.mp4"><img src="docs/media/clips/donut.webp" alt="The silver WRX doing donuts in a muddy field, clods flying" width="49%"></a> <a href="docs/media/clips/mud.mp4"><img src="docs/media/clips/mud.webp" alt="In-car view through a wet, muddy farm stage" width="49%"></a>
+<a href="docs/media/clips/jump.mp4"><img src="docs/media/clips/jump.webp" alt="The silver WRX jumping a crest and smashing through a fence" width="49%"></a> <a href="docs/media/clips/opening.mp4"><img src="docs/media/clips/opening.webp" alt="Flying over a forest down to the start line" width="49%"></a>
+
+Click a clip for the full-quality video with sound, or [**watch the trailer**](docs/media/clips/trailer.mp4).
+
+<img src="docs/media/stills.jpg" alt="A grid of stills from the trailer" width="720">
+
+</div>
+
 ## What is it
 
 You get a car that should've been scrapped years ago and a stage nobody's driven before. Every

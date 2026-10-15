@@ -16,3 +16,12 @@ Take shots with the HUD off.
 | `psx-look.png` | a wide scenic shot that shows off the PS1/PS2 look (fog, dusk, far terrain) |
 | `multiplayer.png` | two or more cars in an online race or rolling start |
 | `garage.png` | the garage with a car and the parts screen |
+
+## Clips
+
+`clips/` holds the gameplay clips in the README's "In action" section, cut from the promo
+footage. Each clip has a looping `.webp` preview (720px, 20 fps, no sound) and a 720p `.mp4` with
+sound that the preview links to. `trailer.mp4` is the full promo, and `../stills.jpg` is a grid of
+stills from it. To add a clip: drop a short 720p mp4 in `clips/`, make its preview with
+`ffmpeg -i clip.mp4 -vf "fps=20,scale=720:-2" -an -c:v libwebp -loop 0 -q:v 72 clip.webp`,
+and add it to the grid in README.md.
