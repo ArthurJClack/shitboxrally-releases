@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>neural net · Shitbox Rally</title>
+<meta name="description" content="the AI Lab neural net learning to drive, live, in Shitbox Rally.">
+<meta property="og:title" content="neural net · Shitbox Rally">
+<meta property="og:description" content="the AI Lab neural net learning to drive, live, in Shitbox Rally.">
+<meta property="og:image" content="https://arthurjclack.github.io/shitboxrally-releases/media/clips/neural_net.jpg">
+<meta name="theme-color" content="#0a0b10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="site.css">
+<style>.nn video{aspect-ratio:16/10;object-fit:contain}</style>
+</head>
+<body>
+<header class="top"><div class="wrap top-in">
+  <a class="logo" href="index.html">SHITBOX <span>RALLY</span></a>
+  <nav><a href="index.html">home</a><a href="cars.html">cars</a><a href="clips.html">clips</a><a href="neural.html" aria-current="page">neural net</a><a href="notes.html">patch notes</a><a href="install.html">install</a></nav>
+  <a class="btn btn-sm" href="https://github.com/ArthurJClack/shitboxrally-releases/releases/latest/download/ShitboxRally_Setup.exe">download</a>
+</div></header>
+<main>
+<section class="wrap band head">
+  <p class="tag">neural net</p>
+  <h1>a brain learning to drive</h1>
+</section>
+<section class="wrap band">
+  <figure class="trailer nn"><video autoplay muted loop playsinline poster="media/clips/neural_net.jpg" src="media/clips/neural_net.mp4" aria-label="the AI Lab neural net training live: the brain diagram firing while cars learn the stage"><img src="media/clips/neural_net.gif" alt="the AI Lab neural net training live"></video></figure>
+</section>
+</main>
+<footer class="foot"><div class="wrap foot-in">
+  <span>© 2026 fish market software. this repo only hosts the game's builds, please don't re-upload the files.</span>
+  <span><a href="https://github.com/ArthurJClack/shitboxrally-releases">github</a> · <a href="https://github.com/ArthurJClack/shitboxrally-releases/releases">all releases</a> · <a href="card.html">share card</a></span>
+</div></footer>
+<script>
+document.querySelectorAll('video[data-lazy]').forEach(v=>{
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){v.src=v.dataset.lazy;v.removeAttribute('data-lazy');io.disconnect()}}));io.observe(v)});
+</script>
+</body>
+</html>
