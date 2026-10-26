@@ -9,6 +9,8 @@ with a PS1/PS2 look and a physics sim that cares way too much.
 
 <img src="docs/media/night-drive.gif" alt="A silver hatch driving a stage at night, headlights on" width="720">
 
+<a href="docs/media/clips/intro.mp4"><img src="docs/media/clips/intro.gif" alt="The pre-race intro: the camera runs down the field at dusk with each driver's card" width="49%"></a> <a href="docs/media/clips/glare.mp4"><img src="docs/media/clips/glare.gif" alt="A wagon coming round a night bend with its headlights flaring" width="49%"></a>
+
 [**Download the latest version**](https://github.com/ArthurJClack/shitboxrally-releases/releases/latest) ·
 [All releases](https://github.com/ArthurJClack/shitboxrally-releases/releases) ·
 [Website](https://arthurjclack.github.io)
