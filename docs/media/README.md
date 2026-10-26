@@ -29,3 +29,7 @@ and add it to the grid in README.md.
 `intro.gif` / `glare.gif` (2026-10-26) are the owner's own captures: 640px, 15 fps GIFs under 10 MB
 (`ffmpeg -i clip.mp4 -vf "fps=15,scale=640:-2:flags=lanczos,split[a][b];[a]palettegen=max_colors=192:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle" clip.gif`),
 linking to 720p mp4s with sound.
+
+2026-10-26: the owner asked for only the new clips on the README and site. The older clips
+(snow, night, sand-jump, burnout, donut, mud, jump, opening, trailer, `night-drive.gif`,
+`stills.jpg`) are no longer linked anywhere but the files are kept here.
