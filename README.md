@@ -7,6 +7,8 @@
 A rally game about flogging cheap '90s shitboxes down procedurally generated back roads,
 with a PS1/PS2 look and a physics sim that cares way too much.
 
+<a href="docs/media/clips/night_side_2.mp4"><img src="docs/media/clips/night_side_2.gif" alt="A wagon side-on on a night forest road, yellow headlights out front" width="720"></a>
+
 <a href="docs/media/clips/intro.mp4"><img src="docs/media/clips/intro.gif" alt="The pre-race intro: the camera runs down the field at dusk with each driver's card" width="49%"></a> <a href="docs/media/clips/glare.mp4"><img src="docs/media/clips/glare.gif" alt="A wagon coming round a night bend with its headlights flaring" width="49%"></a>
 
 [**Download the latest version**](https://github.com/ArthurJClack/shitboxrally-releases/releases/latest) ·
@@ -23,7 +25,6 @@ with a PS1/PS2 look and a physics sim that cares way too much.
 
 <a href="docs/media/clips/battle.mp4"><img src="docs/media/clips/battle.gif" alt="An in-car night battle against a rival pickup, the gap bar draining" width="49%"></a> <a href="docs/media/clips/results.mp4"><img src="docs/media/clips/results.gif" alt="The results screen with the replay of your run looping behind it" width="49%"></a>
 <a href="docs/media/clips/wheel.mp4"><img src="docs/media/clips/wheel.gif" alt="Close-up of a wheel: the tire squashing and the suspension working over the road" width="49%"></a> <a href="docs/media/clips/fog_beams.mp4"><img src="docs/media/clips/fog_beams.gif" alt="Headlight beams cutting through the fog on a night road" width="49%"></a>
-<a href="docs/media/clips/night_side_1.mp4"><img src="docs/media/clips/night_side_1.gif" alt="A silver sedan pacing along a night road, side-on, its yellow headlights lighting the verge" width="49%"></a> <a href="docs/media/clips/night_side_2.mp4"><img src="docs/media/clips/night_side_2.gif" alt="A wagon side-on on a night forest road, yellow headlights out front" width="49%"></a>
 
 **Garage computer**
 
