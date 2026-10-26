@@ -31,7 +31,6 @@ with a PS1/PS2 look and a physics sim that cares way too much.
 <a href="docs/media/clips/ecu.mp4"><img src="docs/media/clips/ecu.gif" alt="Tuning the engine in the FlashTune ECU app on the garage computer" width="49%"></a> <a href="docs/media/clips/ailab.mp4"><img src="docs/media/clips/ailab.gif" alt="The AI Lab on the garage computer, training driving brains" width="49%"></a>
 <a href="docs/media/clips/alldatum_repair.mp4"><img src="docs/media/clips/alldatum_repair.gif" alt="AllDatum repair guide on the garage computer, parts highlighted on the car" width="49%"></a> <a href="docs/media/clips/alldatum_parts.mp4"><img src="docs/media/clips/alldatum_parts.gif" alt="AllDatum suspension and tire pages on the garage computer" width="49%"></a>
 
-Click a clip for the full-quality video with sound.
 
 </div>
 
