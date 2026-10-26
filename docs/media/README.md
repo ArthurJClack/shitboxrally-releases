@@ -25,3 +25,7 @@ sound that the preview links to. `trailer.mp4` is the full promo, and `../stills
 stills from it. To add a clip: drop a short 720p mp4 in `clips/`, make its preview with
 `ffmpeg -i clip.mp4 -vf "fps=20,scale=720:-2" -an -c:v libwebp -loop 0 -q:v 72 clip.webp`,
 and add it to the grid in README.md.
+
+`intro.gif` / `glare.gif` (2026-10-26) are the owner's own captures: 640px, 15 fps GIFs under 10 MB
+(`ffmpeg -i clip.mp4 -vf "fps=15,scale=640:-2:flags=lanczos,split[a][b];[a]palettegen=max_colors=192:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle" clip.gif`),
+linking to 720p mp4s with sound.
