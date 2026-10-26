@@ -23,6 +23,16 @@ with a PS1/PS2 look and a physics sim that cares way too much.
 
 <div align="center">
 
+<a href="docs/media/clips/battle.mp4"><img src="docs/media/clips/battle.gif" alt="An in-car night battle against a rival pickup, the gap bar draining" width="49%"></a> <a href="docs/media/clips/results.mp4"><img src="docs/media/clips/results.gif" alt="The results screen with the replay of your run looping behind it" width="49%"></a>
+<a href="docs/media/clips/wheel.mp4"><img src="docs/media/clips/wheel.gif" alt="Close-up of a wheel: the tire squashing and the suspension working over the road" width="49%"></a>
+
+**Garage computer**
+
+<a href="docs/media/clips/ecu.mp4"><img src="docs/media/clips/ecu.gif" alt="Tuning the engine in the FlashTune ECU app on the garage computer" width="49%"></a> <a href="docs/media/clips/ailab.mp4"><img src="docs/media/clips/ailab.gif" alt="The AI Lab on the garage computer, training driving brains" width="49%"></a>
+<a href="docs/media/clips/alldatum_repair.mp4"><img src="docs/media/clips/alldatum_repair.gif" alt="AllDatum repair guide on the garage computer, parts highlighted on the car" width="49%"></a> <a href="docs/media/clips/alldatum_parts.mp4"><img src="docs/media/clips/alldatum_parts.gif" alt="AllDatum suspension and tire pages on the garage computer" width="49%"></a>
+
+**Older clips**
+
 <a href="docs/media/clips/snow.mp4"><img src="docs/media/clips/snow.webp" alt="The silver WRX wagon kicking up powder on a snow stage" width="49%"></a> <a href="docs/media/clips/night.mp4"><img src="docs/media/clips/night.webp" alt="Two cars chasing each other through a forest stage at night" width="49%"></a>
 <a href="docs/media/clips/sand-jump.mp4"><img src="docs/media/clips/sand-jump.webp" alt="The silver WRX launching off a sand dune" width="49%"></a> <a href="docs/media/clips/burnout.mp4"><img src="docs/media/clips/burnout.webp" alt="An orange coupe doing a burnout on the start line" width="49%"></a>
 <a href="docs/media/clips/donut.mp4"><img src="docs/media/clips/donut.webp" alt="The silver WRX doing donuts in a muddy field, clods flying" width="49%"></a> <a href="docs/media/clips/mud.mp4"><img src="docs/media/clips/mud.webp" alt="In-car view through a wet, muddy farm stage" width="49%"></a>
